@@ -1,0 +1,22 @@
+name: XSouls
+main: me.abb3v.xsouls.XSouls
+version: 1.0
+author: abbev
+description: A Minecraft plugin to manage souls as a currency.
+commands:
+  xsouls:
+    description: Admin commands for XSouls
+    usage: /<command>
+    aliases: [xs]
+
+permissions:
+  xsouls.admin:
+    description: Allows access to all XSouls admin commands
+    default: op
+    children:
+      xsouls.admin.reload:
+        description: Allows reloading of the XSouls configuration
+        default: op
+      xsouls.admin.souls:
+        description: Allows manipulation of player souls
+        default: op

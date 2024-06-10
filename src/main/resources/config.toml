@@ -1,0 +1,5 @@
+[soul_rewards]
+
+[soul_rewards.ZOMBIE]
+reward = 2
+drop_chance = 0.75  # 75% chance to drop souls
